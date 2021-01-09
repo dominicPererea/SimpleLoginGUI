@@ -6,7 +6,6 @@ import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
-
 import java.awt.event.*;
 
 public class loginGUI implements ActionListener{
@@ -68,7 +67,7 @@ public class loginGUI implements ActionListener{
 
 
   public void actionPerformed(ActionEvent e){
-	  
+
 	 success.setText("You've logged in!");
 
 
