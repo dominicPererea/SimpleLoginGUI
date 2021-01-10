@@ -68,8 +68,15 @@ public class loginGUI implements ActionListener{
 
   public void actionPerformed(ActionEvent e){
 
-	 success.setText("You've logged in!");
+		String uName = nameText.getText();
+		String pw = String.valueOf(userPw.getPassword());
 
+
+		if (uName.equals("Dom") && pw.equals("password")){
+			success.setText("Login Successful!");
+		}else{
+			success.setText("Incorrect");
+		}
 
   }//actionPerformed method
 
